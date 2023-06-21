@@ -5,20 +5,20 @@ admins = {}
 load_dotenv()
 
 # client vars
-API_ID = int(getenv("API_ID", "7452578"))
-API_HASH = getenv("API_HASH", "061d67ee8eed9368c5cadabb4aa21efc")
-BOT_TOKEN = getenv("BOT_TOKEN", "5385370603:AAHjSbZFL1OLl_uOm3v8lS0iKSYhRJS_bKs")
-SESSION_NAME = getenv("SESSION_NAME", "AgAGFRW8AN9biZhAIB_X7rubbTCwNtc48oa-geXlaVsQbV9M1emAEV_iGPw_W-lNP1HGbOuQgF9NAUIxlp8-6rgN16-7Upuhst2wCxewyx0VP7Cxb5k_9EXap6_xeU2v4So9RZMt95XYxhGc4hWO_ikd9P46iHLMjXW8GjQAnGvY-bIrM6XqIXF1yeC3vixEa8knOHGkedZU3FYyLhEILy8TV6eH5jOGvsyw5o7xFElb2zZId_vlYO--B3xSWIMUR6zyH8wozehe9tIn0jZptYjY1rqWOMoYS9wtqvBThVazL60nrgL-KdikJC9beDJLLR0C-wzuAtARPCZ-JK6oG-gVAAAAAUM3evYA")
+API_ID = int(getenv("API_ID", "6853443"))
+API_HASH = getenv("API_HASH", "4d12a5b55da2e7093fcd897566336521")
+BOT_TOKEN = getenv("BOT_TOKEN", "6224624072:AAHMkg0GgP5XJO0o1bWxd_8o8F0tsBg_DRI")
+SESSION_NAME = getenv("SESSION_NAME", "BACxexkoqBPt5JW4kmH1A89RlAtgoolmxyAk9KZbe366ADUTiBMKIJa1f3Id1cTa6HTmMnrSSH2DG5XIeQbpbRKyDmCWMIoa26O69aVQ8FZgGHx6Swyr9Chi2lnkwk3VAPqfTrgOY1EG-dz4XXVdKxEZGzYp778d8U9DJIElk8jE4UC8_25PzYtAEThQncQ3tvJ3gpGxS1QxTIyN7gYNF5XlG3T2KdDFkAGyC5sTybgsOreHTxVDNL_flPljrnfEuwlfy5JyzV1j_pT_VBR4mHDeOKCoQon6AQdDr3vT07F6uQcmlC_AFtw-MAvQDII_uQfodxU3FfSil9307X6wfaR4AAAAAW5CyFkA")
 
 # mandatory vars
-OWNER_USERNAME = getenv("OWNER_USERNAME", "rr8r9")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "AL_mtim")
 ALIVE_NAME = getenv("ALIVE_NAME", "song")
-BOT_USERNAME = getenv("BOT_USERNAME", "W7MBoT")
+BOT_USERNAME = getenv("BOT_USERNAME", "myozkmtimbot")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/STKR2/2004")
 UPSTREAM_BRANCH = getenv("UPSTREM_BRANCH", "main")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "rr8r9")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "xl444")
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "tqq_kb")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "alkaaaak")
 
 # database, decorators, handlers mandatory vars
 MONGODB_URL = getenv("MONGODB_URL", "mongodb+srv://veez:mega@cluster0.heqnd.mongodb.net/veez?retryWrites=true&w=majority")
